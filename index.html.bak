@@ -23,7 +23,20 @@
 
 			<!-- Banner -->
 				<section id="banner">
+ <style type="text/css">
+  .html-body-overflow
+  {
+    overflow-x:hidden;
+    overflow-y:hidden;
+  }
+ </style>
  
+ <script type="text/javascript">
+  //禁止滚动条(默认是没有附加这个样式类的）
+  $(document.body).toggleClass("html-body-overflow");
+  //启动滚动条
+  $(document.body).toggleClass("html-body-overflow");
+ </script>
 				<!--<h2>Alpha</h2> >-->
 				<!--<p>Another fine responsive site template freebie by HTML5 UP.</p>-->
 					<style>
